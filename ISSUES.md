@@ -19,6 +19,7 @@
 - 验证：`tests/research-ui.test.js` 覆盖平台版本定位、请求上下文、显式采纳和版本隔离；完整 `node --test` 42 项通过，JavaScript 语法检查通过。用本机草稿 5 的截图段落复核：知乎正文命中，公众号原文不命中，符合根因。5177 已用新代码启动，相关前端资源返回 200 且与磁盘一致。未执行真实浏览器视觉验收。
 - 状态：代码修复及非视觉验证完成，待正式 5177 生效后由用户用截图中的知乎段落验收。
 - 远端：[GitHub #5](https://github.com/gaoweiblue-source/ip-studio/issues/5)。
+- 审核：[Pull Request #7](https://github.com/gaoweiblue-source/ip-studio/pull/7)。
 
 ## VAR-001：多平台版本没有编辑也误标“需重做”
 
@@ -30,6 +31,7 @@
 - 验证：`tests/content-fingerprint.test.js` 覆盖首尾空白、同字数改字和旧数据兼容；完整 `node --test` 42 项通过。用本机草稿 5 复核，知乎和抖音版本均不再被判为过期。
 - 状态：代码修复及非视觉验证完成，待正式 5177 生效后确认知乎、抖音不再误标“需重做”。
 - 远端：[GitHub #6](https://github.com/gaoweiblue-source/ip-studio/issues/6)。
+- 审核：[Pull Request #7](https://github.com/gaoweiblue-source/ip-studio/pull/7)。
 
 ## FLOW-002：结构先行版本已开发，正式本机集成待明确授权
 
